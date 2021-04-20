@@ -2,13 +2,23 @@
     box-sizing: border-box;
     margin: 0;
 }
-
+.blue{
+    background-color: #3A9CED;
+}
+.white{
+    background-color: white;
+}
+.fontwhite{
+    color: white;
+}
+.fontgrey{
+    color: grey;
+}
 body{
     background-color: #F3F6F8;
 }
 /* intestazione */
 header{
-    background-color: #FFF;
     line-height: 120px;
 }
 header #logo{
@@ -27,9 +37,25 @@ header .titolo{
 main{
     width: 50%;
     margin: 20px auto;
-    background-color: #FFF;
+}
+main .bar{
+    height: 50px;
+    border-bottom: 1px solid #F3F6F8;
+    line-height: 50px;
+    padding-left: 40px;
+}
+main .bar button{
+    height: 30px;
+    border-radius: 5px;
+}
+main .bar .bottone1{
+    border: 0;
+}
+main .bar .bottone2{
+    border: 1px solid grey;
 }
 /* fine corpo principale  */
+
 
 
 
