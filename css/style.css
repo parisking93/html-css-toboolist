@@ -1,6 +1,22 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.viola{
+    background-color: #8957DD;
+}
+.lightgreen{
+    background-color: #A2C11D;
+}
+.green{
+    background-color: #55B599;
+}
+.pink{
+    background-color: #A63D75;
+}
+.orange{
+    background-color: orange;
 }
 .blue{
     background-color: #3A9CED;
@@ -37,10 +53,11 @@ header .titolo{
 main{
     width: 50%;
     margin: 20px auto;
+    border-radius: 20px;
 }
 main .bar{
     height: 50px;
-    border-bottom: 1px solid #F3F6F8;
+    border-bottom: 3px solid #F3F6F8;
     line-height: 50px;
     padding-left: 40px;
 }
@@ -59,7 +76,7 @@ main .corpo{
 }
 main .corpo ul{
     list-style-type: none;
-    padding-left: 0;
+    padding-left:0;
 }
 ul .title-li{
     font-size: 24px;
@@ -68,7 +85,29 @@ ul .title-li{
 li{
     margin: 5px 0;
 }
-
+ul .button-list{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.unicode{
+    margin-right: 5px;
+    color: red;
+}
+.unicheck{
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    margin-right: 5px;
+}
+.title-li::before{
+    content: '\25BC  ';
+    width: 50%;
+}
+ul .extramargin{
+    margin: 20px 0;
+}
 /* fine corpo principale  */
 
 
