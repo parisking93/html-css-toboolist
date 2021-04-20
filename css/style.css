@@ -54,6 +54,21 @@ main .bar .bottone1{
 main .bar .bottone2{
     border: 1px solid grey;
 }
+main .corpo{
+    padding: 40px;
+}
+main .corpo ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+ul .title-li{
+    font-size: 24px;
+    font-weight: bold;
+}
+li{
+    margin: 5px 0;
+}
+
 /* fine corpo principale  */
 
 
