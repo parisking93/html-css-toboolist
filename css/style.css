@@ -82,11 +82,15 @@ main .corpo ul{
 }
 ul .bullet{
     font-size: 150%;
+    vertical-align: baseline ;
+
 }
 ul .title-li{
     font-size: 24px;
     font-weight: bold;
-    
+    display: inline-block;
+    line-height: 35px;
+
 }
 li{
     margin: 5px 0;
@@ -96,21 +100,26 @@ ul .button-list{
     padding: 5px;
     margin-left: 5px;
     border-radius: 10px;
-    line-height: 20px;
+    line-height: 19px;
+    height: 30px;
+    font-size: 80%;
 }
 .unicode{
-    margin-right: 5px;
     color: red;
     border: 1px solid red;
-    border-radius: 50%;
-    padding: 1px;
 }
 .unicheck{
     border: 1px solid green;
-    border-radius: 50%;
     color: green;
+}
+.uni{
     margin-right: 5px;
     padding: 1px;
+    font-size: 80%;
+    display: inline-block;
+    height: 23px;
+    line-height: 19px;
+    border-radius: 50%;
 
 }
 ul .extramargin{
