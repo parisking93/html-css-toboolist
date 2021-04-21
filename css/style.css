@@ -80,9 +80,13 @@ main .corpo ul{
     list-style-type: none;
     padding-left:0;
 }
+ul .bullet{
+    font-size: 150%;
+}
 ul .title-li{
     font-size: 24px;
     font-weight: bold;
+    
 }
 li{
     margin: 5px 0;
@@ -108,9 +112,6 @@ ul .button-list{
     margin-right: 5px;
     padding: 1px;
 
-}
-.title-li::before{
-    content: '\25BC  ';
 }
 ul .extramargin{
     margin: 20px 0;
